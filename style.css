@@ -81,9 +81,9 @@ section {
 }
 
 .video-wrapper video {
-  min-width: 100%;
-  min-height: 100%;
-  max-height: 105vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  height: 120%;
 }
 
 .video-wrapper img {
