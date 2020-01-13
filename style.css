@@ -302,6 +302,7 @@ ul.timeline > li:before {
 /* Contact */
 #contact {
   position: relative;
+  justify-content: center;
 }
 
 .icon {
