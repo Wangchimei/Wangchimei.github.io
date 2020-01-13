@@ -36,3 +36,18 @@ $('#en-btn').click(function() {
   $('#en_ver').removeClass('d-none');
   $('#jp_ver').addClass('d-none');
 });
+
+// Experience
+$('#jp-ex-btn').click(function() {
+  $('#en-ex-btn').removeClass('active');
+  $('#jp-ex-btn').addClass('active');
+  $('#jp_ver-ex').removeClass('d-none');
+  $('#en_ver-ex').addClass('d-none');
+});
+
+$('#en-ex-btn').click(function() {
+  $('#jp-ex-btn').removeClass('active');
+  $('#en-ex-btn').addClass('active');
+  $('#en_ver-ex').removeClass('d-none');
+  $('#jp_ver-ex').addClass('d-none');
+});
