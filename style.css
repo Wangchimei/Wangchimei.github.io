@@ -239,6 +239,11 @@ section {
   filter: grayscale(100%);
 }
 
+.badge-primary {
+  border: 1px solid #89c4ff;
+  color: #89c4ff;
+  background-color: #2e2e2e;
+}
 /* Experience */
 #experience {
   background-color: #f4f4f4;
@@ -289,3 +294,55 @@ ul.timeline > li:before {
 .calendar {
   border: none;
 }
+
+.github-output {
+  max-width: 600px;
+}
+
+/* Contact */
+#contact {
+  min-height: 100%;
+}
+.icon {
+  font-size: 3rem;
+}
+
+.contact-box-tw {
+  background-color: #4facf1;
+  border-radius: 10px;
+  width: 120px;
+  height: 90px;
+}
+
+.contact-box-fb {
+  background-color: #4a6fa9;
+  border-radius: 10px;
+  width: 120px;
+  height: 90px;
+}
+
+.contact-box-wa {
+  background-color: #00a4bb;
+  border-radius: 10px;
+  width: 120px;
+  height: 90px;
+}
+
+.contact-box-email {
+  width: 120px;
+  height: 90px;
+}
+
+.contact-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.social-media {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+/* Footer */
