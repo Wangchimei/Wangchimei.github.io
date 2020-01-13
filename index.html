@@ -14,6 +14,7 @@
     <title>Chi Mei Wang | Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -47,175 +48,217 @@
     ></script>
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
   </head>
-
-  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="#top"><img src="/images/logo.png" alt="Logo" class="logo-img"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <!-- navbar end -->
-
-  <!-- intro -->
-  <header id="top" class="v-header">
-    <div class="video-wrapper">
-      <video src="video0.mov" autoplay="true" muted loop="true" id="topVideo">
-      </video>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#top"><img src="/images/logo.png" alt="Logo" class="logo-img">Chi Mei Wang</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="header-overlay"></div>
-    <div class="header-content">
-      <h1 class="text-shadow mb-5">CHI MEI WANG</h1>
-      <a class="btn btn-outline-light mr-3" href="Wang Chi Mei_JP_Resume.pdf" download="Wang Chi Mei_JP_Resume.pdf" download target="_blank">Download Resume</a>
-      <a class="btn btn-outline-light ml-3" href="mailto:chimei.wang.jp@gmail.com">Contact Me</a>
-    </div>
-    <span class="arrow">
-      <a href="#about" class="fas fas fa-chevron-down fa-2x" href="#"></a>
-    </span>
-  </header>
-  <!-- intro end -->
+    <!-- navbar end -->
 
-  <!-- about -->
-  <section id="about" class="page-section">
-    <div class="container navbar-offset">
-      <div>
-        <h2 class="title-text mb-0">About me</h2>
-        <div class="text-center">
-          <div class="btn btn-sm btn-light active" id="jp-btn">日本語</div>
-          <div class="btn btn-sm btn-light" id="en-btn">English</div>
+    <!-- intro -->
+    <header id="top" class="v-header">
+      <div class="video-wrapper">
+        <video src="video0.mov" autoplay="true" muted loop="true" id="topVideo">
+        </video>
+      </div>
+      <div class="header-overlay"></div>
+      <div class="header-content">
+        <h1 class="text-shadow mb-5">CHI MEI WANG</h1>
+        <a class="btn btn-outline-light mr-3" href="Wang Chi Mei_JP_Resume.pdf" download="Wang Chi Mei_JP_Resume.pdf" download target="_blank">Download Resume</a>
+        <a class="btn btn-outline-light ml-3" href="mailto:chimei.wang.jp@gmail.com">Contact Me</a>
+      </div>
+      <span class="arrow">
+        <a href="#about" class="fas fas fa-chevron-down fa-2x" href="#"></a>
+      </span>
+    </header>
+    <!-- intro end -->
+
+    <!-- about -->
+    <section id="about" class="page-section">
+      <div class="container navbar-offset">
+        <div>
+          <h2 class="title-text mb-0">About me</h2>
+          <div class="text-center">
+            <div class="btn btn-sm btn-light active" id="jp-btn">日本語</div>
+            <div class="btn btn-sm btn-light" id="en-btn">English</div>
+          </div>
+          <img src="casual_profile.png" alt="profile picture" id="profile-pic">
         </div>
-        <img src="casual_profile.png" alt="profile picture" id="profile-pic">
+        <div class="text-left self-intro-content" id="jp_ver">
+          <p>2019年にDIVE INTO CODEの9月期のタームに入学し、主にHTML、CSS、JavaScript、Ruby、Rails等を学習していますが、今後も他の言語を勉強していきたいと考えています｡</p>
+          <p>自分の身につけたエンジニアリングスキルを社会の役に立てるため、IT業界を希望しています｡ 自らのスキルで仕事効率化や生活便利化等、「皆に幸福感や生活の質を高める社会を実現できる」サービスを開発したいです｡</p>
+          <p>まだ具体的な分野は定められておりません。知識をインプットする私生活とアウトプットする仕事で、自分と同じ「チャレンジし続ける、成長し続ける、貢献し続ける」といった価値観を持つ方々と一緒に、チームとなって楽しく働きたいです。</p>
+        </div>
+        <div class="text-left self-intro-content d-none" id="en_ver">
+          <p>I'm Chi Mei Wang, a programming enthusiast and experienced marketing researcher who lives in Japan.</p>
+          <p>I hold a Master’s degree in Marketing, and worked as a marketing researcher in Taipei for about 2 years. I followed this by relocating to Japan with my husband where I worked as an assistant manager in the service industry in Japan for 2 years.</p>
+          <p>I graduated from DIVE INTO CODE in December 2019, and am seeking an opportunity to hone my programming skills and do the best to create value for my future company. I am a self-motivated person who is eager to learn and try new things, and I am always looking to grow continuously.</p>
+        </div>
       </div>
-      <div class="text-left self-intro-content" id="jp_ver">
-        <p>2019年にDIVE INTO CODEの9月期のタームに入学し、主にHTML、CSS、JavaScript、Ruby、Rails等を学習していますが、今後も他の言語を勉強していきたいと考えています｡</p>
-        <p>自分の身につけたエンジニアリングスキルを社会の役に立てるため、IT業界を希望しています｡ 自らのスキルで仕事効率化や生活便利化等、「皆に幸福感や生活の質を高める社会を実現できる」サービスを開発したいです｡</p>
-        <p>まだ具体的な分野は定められておりません。知識をインプットする私生活とアウトプットする仕事で、自分と同じ「チャレンジし続ける、成長し続ける、貢献し続ける」といった価値観を持つ方々と一緒に、チームとなって楽しく働きたいです。</p>
-      </div>
-      <div class="text-left self-intro-content d-none" id="en_ver">
-        <p>I'm Chi Mei Wang, a programming enthusiast and experienced marketing researcher who lives in Japan.</p>
-        <p>I hold a Master’s degree in Marketing, and worked as a marketing researcher in Taipei for about 2 years. I followed this by relocating to Japan with my husband where I worked as an assistant manager in the service industry in Japan for 2 years.</p>
-        <p>I graduated from DIVE INTO CODE in December 2019, and am seeking an opportunity to hone my programming skills and do the best to create value for my future company. I am a self-motivated person who is eager to learn and try new things, and I am always looking to grow continuously.</p>
-      </div>
-    </div>
-  </section>
-  <!-- about end -->
-  <section id="skills" class="page-section">
-    <div class="container navbar-offset">
-      <h2 class="title-text">Skills</h2>
-      <p>I've been doing web development since September 2019, and I'm always eager to learn more in this fast paced industry.</p>
-      <p class="subtitle-text">TECHNOLOGIES I'VE WORKED WITH:</p>
+    </section>
+    <!-- about end -->
+
+    <!-- skills -->
+    <section id="skills" class="page-section">
+      <div class="container navbar-offset">
+        <h2 class="title-text">Skills</h2>
+        <p>I've been doing web development since September 2019, and I'm always eager to learn more in this fast paced industry.</p>
+        <p class="subtitle-text">TECHNOLOGIES I'VE WORKED WITH:</p>
+        <div class="skill-container">
+          <div class="row mb-4">
+            <div title="HTML5" class="col-2">
+              <img src="/images/html.png" alt="HTML" class="skill-icon">
+            </div>
+            <div title="CSS3" class="col-2">
+              <img src="/images/css.png" alt="CSS" class="skill-icon">
+            </div>
+            <div title="JavaScript" class="col-2">
+              <img src="/images/js.png" alt="JavaScript" class="skill-icon">
+            </div>
+            <div title="Bootstrap 4" class="col-2">
+              <img src="/images/bootstrap.png" alt="Bootstrap" class="skill-icon">
+            </div>
+            <div title="jQuery" class="col-2">
+              <img src="/images/jquery.png" alt="jQuery" class="skill-icon">
+            </div>
+            <div title="Ruby" class="col-2">
+              <img src="/images/ruby.png" alt="Ruby" class="skill-icon">
+            </div>
+            <div title="Ruby on Rails" class="col-2">
+              <img src="/images/rails.png" alt="Rails" class="skill-icon">
+            </div>
+            <div title="Postgresql" class="col-2">
+              <img src="/images/postgresql.png" alt="Postgresql" class="skill-icon">
+            </div>
+            <div title="Amazon S3" class="col-2">
+              <img src="/images/s3.png" alt="Amazon S3" class="skill-icon">
+            </div>
+            <div title="GitHub" class="col-2">
+              <img src="/images/github.png" alt="GitHub" class="skill-icon">
+            </div>
+            <div title="Firebase" class="col-2">
+              <img src="/images/firebase.png" alt="Firebase" class="skill-icon">
+            </div>
+            <div title="Vue.js" class="col-2">
+              <img src="/images/vuejs.png" alt="Vuejs" class="skill-icon">
+            </div>
+          </div>
+        </div>
+      <p class="subtitle-text">TECHNOLOGIES I'M LEARNING:</p>
       <div class="skill-container">
         <div class="row mb-4">
-          <div title="HTML5" class="col-2">
-            <img src="/images/html.png" alt="HTML" class="skill-icon">
-          </div>
-          <div title="CSS3" class="col-2">
-            <img src="/images/css.png" alt="CSS" class="skill-icon">
-          </div>
-          <div title="JavaScript" class="col-2">
-            <img src="/images/js.png" alt="JavaScript" class="skill-icon">
-          </div>
-          <div title="Bootstrap 4" class="col-2">
-            <img src="/images/bootstrap.png" alt="Bootstrap" class="skill-icon">
-          </div>
-          <div title="jQuery" class="col-2">
-            <img src="/images/jquery.png" alt="jQuery" class="skill-icon">
-          </div>
-          <div title="Ruby" class="col-2">
-            <img src="/images/ruby.png" alt="Ruby" class="skill-icon">
-          </div>
-          <div title="Ruby on Rails" class="col-2">
-            <img src="/images/rails.png" alt="Rails" class="skill-icon">
-          </div>
-          <div title="Postgresql" class="col-2">
-            <img src="/images/postgresql.png" alt="Postgresql" class="skill-icon">
-          </div>
-          <div title="Amazon S3" class="col-2">
-            <img src="/images/s3.png" alt="Amazon S3" class="skill-icon">
-          </div>
-          <div title="GitHub" class="col-2">
-            <img src="/images/github.png" alt="GitHub" class="skill-icon">
-          </div>
-          <div title="Firebase" class="col-2">
-            <img src="/images/firebase.png" alt="Firebase" class="skill-icon">
-          </div>
-          <div title="Vue.js" class="col-2">
+          <div title="Vue.js" class="col">
             <img src="/images/vuejs.png" alt="Vuejs" class="skill-icon">
           </div>
-        </div>
-      </div>
-    <p class="subtitle-text">TECHNOLOGIES I'M LEARNING:</p>
-    <div class="skill-container">
-      <div class="row mb-4">
-        <div title="Vue.js" class="col">
-          <img src="/images/vuejs.png" alt="Vuejs" class="skill-icon">
-        </div>
-        <div title="MySQL" class="col">
-          <img src="/images/mysql.png" alt="MySQL" class="skill-icon">
-        </div>
-        <div title="Docker" class="col">
-          <img src="/images/docker.png" alt="Docker" class="skill-icon">
-        </div>
-      </div>
-    </div>
-    <p class="subtitle-text">TECHNOLOGIES I'M INTERESTED IN LEARNING:</p>
-      <div class="skill-container">
-        <div class="row mb-4">
-          <div title="Kotlin" class="col skill-icon">
-            <img src="/images/kotlin.png" alt="Kotlin">
-            <p>2020/04</p>
+          <div title="MySQL" class="col">
+            <img src="/images/mysql.png" alt="MySQL" class="skill-icon">
           </div>
-          <div title="Python & Django" class="col skill-icon">
-            <img src="/images/python.png" alt="Python">
-            <p>2020/08</p>
-          </div>
-          <div title="React" class="col skill-icon">
-            <img src="/images/react.png" alt="React">
-            <p>2020/10</p>
+          <div title="Docker" class="col">
+            <img src="/images/docker.png" alt="Docker" class="skill-icon">
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="portfolio" class="page-section">
-    <p>test444</p>
-    <div class="github-output">
-      <div class="calendar">
+      <p class="subtitle-text">TECHNOLOGIES I'M INTERESTED IN LEARNING:</p>
+        <div class="skill-container">
+          <div class="row mb-4">
+            <div title="Kotlin" class="col skill-icon">
+              <img src="/images/kotlin.png" alt="Kotlin">
+              <p>2020/04</p>
+            </div>
+            <div title="Python & Django" class="col skill-icon">
+              <img src="/images/python.png" alt="Python">
+              <p>2020/08</p>
+            </div>
+            <div title="React" class="col skill-icon">
+              <img src="/images/react.png" alt="React">
+              <p>2020/10</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-  <section id="experience" class="page-section">
-    <p>test555</p>
-  </section>
-  <section id="education" class="page-section">
-    <p>test666</p>
-  </section>
-  <section id="contact" class="page-section">
-    <p>test777</p>
-  </section>
-
-
+    </section>
+    <!-- skills end -->
+    <!-- portfolio -->
+    <section id="portfolio" class="page-section">
+      <div class="container navbar-offset">
+        <h2 class="title-text text-light mb-3">Portfolio</h2>
+        <div class="row">
+          <div class="col-lg-5">
+            <h4 class="project-title-text text-light">TripHub</h4>
+            <img src="/images/triphub.png" class="project-image" alt="TripHub">
+            <div>
+              <div class="mt-1">
+                <a href="https://github.com/Wangchimei/TripHub" target="_blank" class="btn btn-sm btn-outline-light mr-2">View Source Code</a>
+                <a href="https://trip-hub.herokuapp.com/" target="_blank" class="btn btn-sm btn-outline-light ml-2">Visit Site</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 text-left pt-5">
+            <p class="mb-0">旅行のスケジュールを計画とシェアできるアプリです。</p class="mb-0">
+            <p class="mb-0">他のユーザの公開した旅行スケジュールを参考できできます。</p class="mb-0">
+            <p>気になるスポットを見つけたらその場で保存、自分のオリジナルプランを作成することができます。</p>
+            <p class="mb-0">A graduation project at DIVE INTO CODE.</p>
+            <p>Triphub is where travel enthusiasts can share their travel schedules while exploring the world.</p>
+            <div>
+              <p class="mt-4 mb-0">TECHNOLOGIES USED:</p>
+                <span class="badge badge-secondary">HTML</span>
+                <span class="badge badge-secondary">CSS</span>
+                <span class="badge badge-secondary">JavaScript</span>
+                <span class="badge badge-secondary">Bootstrap</span>
+                <span class="badge badge-secondary">jQuery</span>
+                <span class="badge badge-secondary">Ruby</span>
+                <span class="badge badge-secondary">Ruby on Rails</span>
+                <span class="badge badge-secondary">PostgreSQL</span>
+                <span class="badge badge-secondary">AWS S3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio end -->
+    <!-- experience -->
+    <section id="experience" class="page-section">
+      <p>test555</p>
+    </section>
+    <!-- experience end -->
+    <!-- education -->
+    <section id="education" class="page-section">
+      <p>test666</p>
+      <div class="github-output">
+        <div class="calendar">
+        </div>
+      </div>
+    </section>
+    <!-- education end -->
+    <!-- contact -->
+    <section id="contact" class="page-section">
+      <p>test777</p>
+    </section>
+    <!-- contact end -->
   </body>
 
   <script>
