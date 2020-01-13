@@ -285,3 +285,7 @@ ul.timeline > li:before {
 #education {
   background-color: #fff;
 }
+
+.calendar {
+  border: none;
+}
