@@ -301,8 +301,9 @@ ul.timeline > li:before {
 
 /* Contact */
 #contact {
-  min-height: 100%;
+  position: relative;
 }
+
 .icon {
   font-size: 3rem;
 }
@@ -345,4 +346,7 @@ ul.timeline > li:before {
   margin-bottom: 5rem;
 }
 
-/* Footer */
+.footer {
+  position: absolute;
+  bottom: 10px;
+}
